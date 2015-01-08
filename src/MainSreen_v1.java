@@ -8,7 +8,7 @@ import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.Statement;
 import java.sql.*;
 /*
- * NewJFrame.java
+ * MainSreen_v1.java
  *
  * Created on 21 Oct, 2012, 3:00:18 PM
  */
@@ -16,10 +16,10 @@ import java.sql.*;
  *
  * @author dell
  */
-public class NewJFrame extends javax.swing.JFrame {
+public class MainSreen_v1 extends javax.swing.JFrame {
 
-    /** Creates new form NewJFrame */
-    public NewJFrame() {
+    /** Creates new form MainSreen_v1 */
+    public MainSreen_v1() {
         initComponents();
     }
 
@@ -242,7 +242,7 @@ public class NewJFrame extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
 
             public void run() {
-                new NewJFrame().setVisible(true);
+                new MainSreen_v1().setVisible(true);
             }
         });
     }
